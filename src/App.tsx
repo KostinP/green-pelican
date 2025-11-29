@@ -5,12 +5,16 @@ import About from './components/About';
 import Activities from './components/Activities';
 import PastEvents from './components/PastEvents';
 import Partners from './components/Partners';
+import Map from './components/Map';
+import EventsLink from './components/EventsLink';
 import Contacts from './components/Contacts';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 
 function App() {
+
+  
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -20,8 +24,10 @@ function App() {
         <Activities />
         <PastEvents />
         <Partners />
+        <EventsLink />
         <Contacts />
         <FAQ />
+        <Map />
       </main>
       <Footer />
       <BackToTop />
