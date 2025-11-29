@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
-import { Button } from './ui/button';
+import { Button } from '../../ui/button';
 
 interface Activity {
   image: string;

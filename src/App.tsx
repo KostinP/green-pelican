@@ -1,37 +1,48 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Activities from './components/Activities';
-import PastEvents from './components/PastEvents';
-import Partners from './components/Partners';
-import Map from './components/Map';
-import EventsLink from './components/EventsLink';
-import Contacts from './components/Contacts';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
-import BackToTop from './components/BackToTop';
+// src/App.tsx
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import BackToTop from "@/components/BackToTop";
+import Footer from "@/components/Footer";
 
-function App() {
+// Секции
+import About from "@/components/sections/About/About";
+import Activities from "@/components/sections/Activities/Activities";
+import PastEvents from "@/components/sections/PastEvents/PastEvents";
+import Partners from "@/components/sections/Partners/Partners";
+import EventsLink from "@/components/sections/EventsLink/EventsLink";
+import Contacts from "@/components/sections/Contacts/Contacts";
+import FAQ from "@/components/sections/FAQ/FAQ";
+import Map from "@/components/sections/Map/Map";
 
-  
+// Старые секции
+import Activities1 from './components/sections/Activities/ActivitiesOld';
+import PastEvents1 from './components/sections/PastEvents/PastEventsOld';
+import Contacts1 from './components/sections/Contacts/ContactsOld';
+import FAQ1 from './components/sections/FAQ/FAQOld';
+
+export default function App() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
+
       <main>
         <Hero />
         <About />
         <Activities />
+        <Activities1 />
         <PastEvents />
+        <PastEvents1 />
         <Partners />
         <EventsLink />
         <Contacts />
+        <Contacts1 />
         <FAQ />
+        <FAQ1 />
         <Map />
       </main>
+
       <Footer />
       <BackToTop />
     </div>
   );
 }
-
-export default App;
