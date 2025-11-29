@@ -13,7 +13,7 @@ export default function History() {
             <>
               <h2 className="text-4xl font-light mb-6">История фестиваля</h2>
               <Button asChild variant="outline" size="lg">
-                <a href="https://history.festival.ru" target="_blank">Перейти</a>
+                <a href="/history" target="_blank">Перейти</a>
               </Button>
             </>
           }

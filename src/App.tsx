@@ -1,3 +1,5 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 // src/App.tsx
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -47,11 +49,16 @@ import Hero2 from "@/components/Hero2";
 import Hero3 from "@/components/Hero3";
 import Hero4 from "@/components/Hero4";
 import Hero5 from "@/components/Hero5";
+import { HistoryPage } from "./components/history/HistoryPage";
 
-
-export default function App() {
-  return (
-    <div className="min-h-screen bg-white">
+const router = createBrowserRouter([
+  {
+    path: "/history",
+    element: <HistoryPage />,
+  },
+  {
+    path: "*",
+    element: <div className="min-h-screen bg-white">
       <Header />
 
       <main>
@@ -94,5 +101,9 @@ export default function App() {
       <Footer />
       <BackToTop />
     </div>
-  );
+  }
+]);
+
+export default function App() {
+  return <RouterProvider router={router} />;
 }
