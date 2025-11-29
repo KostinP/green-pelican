@@ -74,21 +74,20 @@ export default function App() {
         <Contacts />
         <Contacts1 />
         <FAQ />
+        <FAQ1 />
         <Reviews />
         <RunningLine />
         <Jury />
         <History />
         <Winners />
         <SpecialAwards/>
-        <Subscribe />
         <Stats />
         <Timeline />
-        <VideoHero />
-        <FAQ1 />
-        <Program2 />
-
-        <Subscribe2 />
         <Timeline2 />
+        <VideoHero />
+        <Program2 />
+        <Subscribe />
+        <Subscribe2 />
         <Map />
       </main>
 
