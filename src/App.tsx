@@ -14,6 +14,7 @@ import Contacts from "@/components/sections/Contacts/Contacts";
 import FAQ from "@/components/sections/FAQ/FAQ";
 import Map from "@/components/sections/Map/Map";
 import LocationHero from "@/components/sections/LocationHero/LocationHero";
+import MapSection from "@/components/sections/MapSection/MapSection";
 
 // Старые секции
 import Activities1 from './components/sections/Activities/ActivitiesOld';
@@ -32,6 +33,7 @@ export default function App() {
         <LocationHero />
         <Activities />
         <Activities1 />
+        <MapSection />
         <PastEvents />
         <PastEvents1 />
         <Partners />
