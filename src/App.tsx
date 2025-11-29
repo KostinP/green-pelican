@@ -15,6 +15,8 @@ import FAQ from "@/components/sections/FAQ/FAQ";
 import Map from "@/components/sections/Map/Map";
 import LocationHero from "@/components/sections/LocationHero/LocationHero";
 import MapSection from "@/components/sections/MapSection/MapSection";
+import ParkForum from "@/components/sections/ParkForum/ParkForum";
+import ParkForum1 from "@/components/sections/ParkForum/ParkForum1";
 
 // Старые секции
 import Activities1 from './components/sections/Activities/ActivitiesOld';
@@ -36,6 +38,8 @@ export default function App() {
         <MapSection />
         <PastEvents />
         <PastEvents1 />
+        <ParkForum />
+        <ParkForum1 />
         <Partners />
         <EventsLink />
         <Contacts />
