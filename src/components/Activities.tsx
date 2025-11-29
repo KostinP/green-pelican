@@ -100,7 +100,7 @@ const Activities: React.FC = () => {
     arrows: true,
     prevArrow: <SamplePrevArrow />,
     nextArrow: <SampleNextArrow />,
-    beforeChange: (current: number, next: number) => setCurrentSlide(next),
+    beforeChange: (next: number) => setCurrentSlide(next),
     responsive: [
       {
         breakpoint: 1024,
