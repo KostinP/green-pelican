@@ -13,6 +13,7 @@ import EventsLink from "@/components/sections/EventsLink/EventsLink";
 import Contacts from "@/components/sections/Contacts/Contacts";
 import FAQ from "@/components/sections/FAQ/FAQ";
 import Map from "@/components/sections/Map/Map";
+import LocationHero from "@/components/sections/LocationHero/LocationHero";
 
 // Старые секции
 import Activities1 from './components/sections/Activities/ActivitiesOld';
@@ -28,6 +29,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <LocationHero />
         <Activities />
         <Activities1 />
         <PastEvents />
