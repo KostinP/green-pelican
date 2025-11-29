@@ -24,6 +24,31 @@ import PastEvents1 from './components/sections/PastEvents/PastEventsOld';
 import Contacts1 from './components/sections/Contacts/ContactsOld';
 import FAQ1 from './components/sections/FAQ/FAQOld';
 
+// ──────────────────────────────────────
+// НОВЫЕ СЕКЦИИ В СТИЛЕ RED APPLE
+// ──────────────────────────────────────
+import Stats from "@/components/red-apple/Stats";                     // Статистика (40+ стран и т.д.)
+import Timeline from "@/components/red-apple/Timeline";             // Таймлайн подачи работ
+import Reviews from "@/components/red-apple/Reviews";                 // Отзывы жюри и победителей
+import VideoHero from "@/components/red-apple/VideoHero";           // Видео-фон как в Red Apple
+import RunningLine from "@/components/red-apple/RunningLine";     // Бегущая строка
+import Jury from "@/components/red-apple/Jury";     // Бегущая строка
+
+
+import Timeline2 from "@/components/red-apple/Timeline2";
+import History from "@/components/red-apple/History";
+import Subscribe from "@/components/red-apple/Subscribe";
+import Program2 from "@/components/red-apple/Program2";
+import SpecialAwards from "@/components/red-apple/SpecialAwards";
+import Subscribe2 from "@/components/red-apple/Subscribe2";
+import Winners from "./components/red-apple/Winners";
+
+import Hero2 from "@/components/Hero2";
+import Hero3 from "@/components/Hero3";
+import Hero4 from "@/components/Hero4";
+import Hero5 from "@/components/Hero5";
+
+
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -31,6 +56,10 @@ export default function App() {
 
       <main>
         <Hero />
+        <Hero2 />
+        <Hero3 />
+        <Hero4 />
+        <Hero5 />
         <About />
         <LocationHero />
         <Activities />
@@ -45,7 +74,21 @@ export default function App() {
         <Contacts />
         <Contacts1 />
         <FAQ />
+        <Reviews />
+        <RunningLine />
+        <Jury />
+        <History />
+        <Winners />
+        <SpecialAwards/>
+        <Subscribe />
+        <Stats />
+        <Timeline />
+        <VideoHero />
         <FAQ1 />
+        <Program2 />
+
+        <Subscribe2 />
+        <Timeline2 />
         <Map />
       </main>
 

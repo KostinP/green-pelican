@@ -193,5 +193,57 @@
   "hero": {
     "buttonText": "Узнать больше"
   },
-  "backToTop": {}
+  "backToTop": {},
+  "stats": [
+    { "value": "40+", "label": "стран" },
+    { "value": "90+", "label": "членов жюри" },
+    { "value": "1100+", "label": "работ" },
+    { "value": "375+", "label": "Каннских львов" }
+  ],
+  "runningLine": "Публикация шорт-листа — 23 октября",
+  "videoHero": {
+    "title": "ЗЕЛЁНЫЙ ПЕЛИКАН 2026",
+    "subtitle": "Формируем особую городскую среду через экологию, науку и искусство"
+  },
+  "timeline": {
+    "submission": [
+      { "num": "1", "from": "12 мая", "to": "30 мая", "label": "Attention" },
+      { "num": "2", "from": "31 мая", "to": "27 июня", "label": "Interest" },
+      { "num": "3", "from": "28 июня", "to": "25 июля", "label": "Desire" },
+      { "num": "4", "from": "26 июля", "to": "3 сентября", "label": "Action" }
+    ],
+    "voting": [
+      { "num": "1", "from": "17 сентября", "to": "1 октября", "label": "лонг-лист" },
+      { "num": "2", "from": "2 октября", "to": "16 октября", "label": "шорт-лист" },
+      { "num": "3", "from": "20 октября", "to": "22 октября", "label": "металлы" },
+      { "num": "4", "from": "13 ноября", "to": "", "label": "Церемония" }
+    ],
+    "title": "Периоды подачи работ",
+    "subtitle": "Прием заявок: 12.05.2026 – 03.09.2026",
+    "periods": [
+      { "number": "1", "date1": "12 мая", "date2": "30 мая", "label": "Attention" },
+      { "number": "2", "date1": "31 мая", "date2": "27 июня", "label": "Interest" },
+      { "number": "3", "date1": "28 июня", "date2": "25 июля", "label": "Desire" },
+      { "number": "4", "date1": "26 июля", "date2": "3 сентября", "label": "Action" }
+    ]
+  },
+  "program": {
+    "title": "Программа",
+    "text": "Фестиваль проходит в рамках Недели рекламы. Завершает программу торжественная церемония награждения.",
+    "link": "https://example.com/program"
+  },
+  "jury": [
+    { "name": "Иван Иванов", "position": "Креативный директор", "country": "Россия", "photo": "/images/jury/1.jpg" }
+  ],
+  "reviews": [
+    { "name": "Мария Петрова", "position": "CEO, Agency X", "photo": "/images/reviews/1.jpg", "text": "Очень вдохновляющий фестиваль!" }
+  ],
+  "winners": { "title": "Победители 2025", "link": "/winners" },
+  "specialAwards": { "title": "Специальные награды", "items": ["Гран-при", "Агентство года", "Молодой креатор"] },
+  "subscribe": {
+    "title": "ПОДПИШИСЬ НА НОВОСТИ",
+    "subtitle": "Самый свежий контент, календари мероприятий и главные материалы для специалистов"
+  },
+  "history": { "title": "История фестиваля", "link": "https://history.festival.ru" }
+
 }
