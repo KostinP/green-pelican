@@ -109,11 +109,6 @@
   },
   "partners": {
     "title": "Партнеры",
-    "mainPartners": [
-      "/images/main-partners/spb.png",
-      "/images/main-partners/rgpu.png",
-      "/images/main-partners/minpros.png"
-    ],
     "otherPartners": [
       "/images/other-partners/partner1.png",
       "/images/other-partners/partner2.png"

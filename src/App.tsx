@@ -51,6 +51,10 @@ import Hero4 from "@/components/Hero4";
 import Hero5 from "@/components/Hero5";
 import { HistoryPage } from "./components/history/HistoryPage";
 
+import Stages from "@/components/sections/Stages/Stages";
+import Stages2 from "@/components/sections/Stages/Stages2";
+import Stages3 from "@/components/sections/Stages/Stages3";
+
 const router = createBrowserRouter([
   {
     path: "/history",
@@ -95,6 +99,9 @@ const router = createBrowserRouter([
         <Program2 />
         <Subscribe />
         <Subscribe2 />
+        <Stages />
+        <Stages2 />
+        <Stages3 />
         <Map />
       </main>
 
